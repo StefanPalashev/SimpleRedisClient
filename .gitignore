@@ -1,0 +1,22 @@
+# Ignore build and CMake generated files
+/build/
+CMakeCache.txt
+CMakeFiles/
+CMakeInstall.cmake
+CTestTestfile.cmake
+Makefile
+*.make
+*.cmake
+*.o
+*.a
+*.so
+
+# Ignore IDE and OS-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# Ignore third-party libraries
+/lib/
